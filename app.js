@@ -4,7 +4,7 @@
 let amigo  = []; // definimos la variable que contendra los nombres.
 
 // funcion que me permite añadir los nombres a la variable amigo
-function registrarNombre() {
+function agregarAmigo() {
   let  nombre=document.getElementById('amigo').value;
 
 if (nombre!="") {
