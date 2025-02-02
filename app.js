@@ -14,5 +14,5 @@ document.getElementById('amigo').value="";
 }else {
     alert("por favor, inserte un nombre");
 }
-
+console.log (amigo);
 }
