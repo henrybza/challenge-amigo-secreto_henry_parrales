@@ -15,4 +15,13 @@ document.getElementById('amigo').value="";
     alert("por favor, inserte un nombre");
 }
 console.log (amigo);
+listarAmigos();
 }
+
+function listarAmigos() {
+  let lista=document.getElementById('listaAmigos');
+  
+    lista.innerHTML= amigo;
+  
+}
+
