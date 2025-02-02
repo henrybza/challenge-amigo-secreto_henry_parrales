@@ -20,8 +20,12 @@ listarAmigos();
 
 function listarAmigos() {
   let lista=document.getElementById('listaAmigos');
-  
-    lista.innerHTML= amigo;
+  lista.innerHTML='';
+  for (i=0; i<amigo.length; i++) {
+    lista.innerHTML= `
+    <li>${amigo}</li>
+    `
+  }
   
 }
 
