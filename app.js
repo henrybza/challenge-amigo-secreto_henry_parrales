@@ -18,6 +18,7 @@ console.log (amigo);
 listarAmigos();
 }
 
+// funcion para mostrar nombre de amigos en lista
 function listarAmigos() {
   let lista=document.getElementById('listaAmigos');
   lista.innerHTML='';
