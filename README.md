@@ -6,7 +6,8 @@ que se selecciona un nombre aleatorio del grupo de amigos. el resultado se obtie
 boton sortear amigo. para jugar debes:
 
 1. Digitar un nombre y dar click al boton añadir. esto segun los amigos que requieras añadir.
-
+![alt text](assets/ingrese_nombre.PNG)
 se iran agregando los nombre en una lista.
 2. una vez tengas los amigos a sortear en lista. dar clic al boton sortear amigos para generar el amigo secreto.
+![alt text](assets/sortear.PNG)
 3. para reiniciar el juego recarga la pagina.
