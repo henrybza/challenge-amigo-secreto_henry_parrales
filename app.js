@@ -30,3 +30,16 @@ function listarAmigos() {
   
 }
 
+// funcion para sortear amigos segun la cantidad de amigos
+function sortearAmigo() {
+  if (amigo.length>0) {
+    let resultado= document.getElementById('resultado');
+    let indiceAmigo= Math.floor(Math.random()*amigo.length);
+    console.log(indiceAmigo);
+    resultado.innerHTML='';
+    resultado.innerHTML= `El amigo sorteado es: ${amigo[indiceAmigo]}`;
+
+  } else {
+    alert("aun no hay nombre para sortear");
+  }
+}
